@@ -61,11 +61,11 @@ This tool formats the following "before" (red) into "after" (green).
 
 ```diff
 def some_function(
--    arg1,
--    arg2='test',
--    *,
--    arg3: int = 2,
--    arg4: bool = False,
++    arg1,
++    arg2='test',
++    *,
++    arg3: int = 2,
++    arg4: bool = False,
 +        arg1,
 +        arg2='test',
 +        *,
